@@ -14,7 +14,7 @@ body {
 /* HEADER */
 header {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 10vh;
     z-index: 2  ;
     background-color: transparent;
