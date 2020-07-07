@@ -34,7 +34,7 @@ header .title h1  {
     padding-left: 150px;
     color:#c83737;
     text-shadow: 2px 2px rgba(0,0,0,0.3);
-}
+}/*HEADER END */
 
 /* HOME */
 #home {
@@ -51,15 +51,14 @@ header .title h1  {
     width: 70vw;
     position: relative;
     box-shadow: 4px 4px #c83737;
-    /* border: 2px solid black; */
     border-radius: 12px;
     background-color: #c83737;
-    transition: all .1s ease-in-out ;
+    /* transition: all .1s ease-in-out ; */
 }
-.card:hover {
+/* .card:hover {
     transform: scale(1.04);
     transition: .1s ease-in-out all;
-}
+} */
 .card::after {
     position: absolute;
     content: '';
@@ -118,4 +117,5 @@ header .title h1  {
     font-size: 1.2rem;
     text-align: center;
 }
+/* HOME END */
  
