@@ -11,32 +11,6 @@ body {
     /* background-color: #c83737; */
     /* overflow: hidden; */
 }
-/* HEADER */
-header {
-    position: absolute;
-    width: 100vw;
-    height: 10vh;
-    z-index: 2  ;
-    background-color: transparent;
-    color: #fff; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center ;
-}
-header .logo{
-    position: absolute;
-    height:10vh;
-    width: fit-content;
-    top: 0;
-    display: inline-block;
-}
-header .title h1  {
-    position: relative;
-    color:#c83737;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-}/*HEADER END */
-
 /* HOME */
 #home {
     position: absolute;
