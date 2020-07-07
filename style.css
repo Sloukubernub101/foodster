@@ -9,7 +9,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     /* background-color: #c83737; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 /* HEADER */
 header {
@@ -18,22 +18,23 @@ header {
     height: 10vh;
     z-index: 2  ;
     background-color: transparent;
-    color: #fff;
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
 }
 header .logo{
     position: absolute;
     height:10vh;
     width: fit-content;
     top: 0;
-    margin-left:40px;
     display: inline-block;
 }
 header .title h1  {
     position: relative;
-    padding-top: 18px;
-    padding-left: 150px;
     color:#c83737;
-    text-shadow: 2px 2px rgba(0,0,0,0.3);
+    /* text-shadow: 2px 2px rgba(0,0,0,0.3); */
 }/*HEADER END */
 
 /* HOME */
@@ -93,9 +94,9 @@ header .title h1  {
     position:absolute;
     object-fit: cover;
     object-position: center;
-    height:350px;
+    height:250px;
     opacity: 1;
-    top: 20px;
+    /* top: 20px; */
 }
 .content {
     position: absolute;
