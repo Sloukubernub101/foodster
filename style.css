@@ -50,11 +50,24 @@ header .title h1  {
     height: 80vh;
     width: 80vw;
     position: relative;
-    box-shadow: 4px 4px rgba(0,0,0,0.7);
+    box-shadow: 4px 4px #c83737;
     /* border: 2px solid black; */
     border-radius: 12px;
     background-color: #c83737;
+    transition: all .1s ease-in-out ;
 }
+.card:hover {
+    transform: scale(1.04);
+    transition: .1s ease-in-out all;
+}
+.card::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0,0,0,0.3); */
+    border-radius:10px ;
+} 
 .bg-img {
     height: 100%;
     width: 100%;
@@ -69,47 +82,34 @@ header .title h1  {
 }
 .container{
     height: 100%;
-    width: 100%;
-    margin: 0 auto;
+    width: 50%;
+    float: right;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    border-radius: 10px;
-}
-.container:after{
-   position: absolute;
-   content: '';
-   height: 100%;
-   width: 100%;
-   background-color: rgba(0,0,0,0.3);
-   border-radius: 10px;
+    position: relative;
 }
 .container img {
     position:absolute;
     object-fit: cover;
     object-position: center;
     height:350px;
-    margin: 0 auto;
     opacity: 1;
-    top: 0;
-    /* border-radius: 50%; */
+    top: 20px;
 }
 .content {
     position: absolute;
     height: 80%;
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    top:20%;
 }
 .content h1 {
     color:#fff;
     font-size: 3em;
-    text-shadow: 2px 2px #000;
 }
 .content p {
     color:#fff;
