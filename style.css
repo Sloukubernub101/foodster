@@ -47,8 +47,8 @@ header .title h1  {
     justify-content: center;
 }
 .card {
-    height: 80vh;
-    width: 80vw;
+    height: 70vh;
+    width: 70vw;
     position: relative;
     box-shadow: 4px 4px #c83737;
     /* border: 2px solid black; */
@@ -100,19 +100,22 @@ header .title h1  {
 }
 .content {
     position: absolute;
-    height: 80%;
+    height: 100%;
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 .content h1 {
     color:#fff;
     font-size: 3em;
+    text-align: center;
 }
 .content p {
     color:#fff;
     font-size: 1.2rem;
+    text-align: center;
 }
  
