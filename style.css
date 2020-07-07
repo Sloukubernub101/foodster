@@ -8,7 +8,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #c83737;
+    /* background-color: #c83737; */
+    background-color: ;
 }
 /* HEADER */
 header {
@@ -31,8 +32,8 @@ header .title h1  {
     position: relative;
     padding-top: 18px;
     padding-left: 150px;
-    color:black;
     color:#c83737;
+    text-shadow: 2px 2px rgba(0,0,0,0.3);
 }
 
 /* HOME */
@@ -45,32 +46,20 @@ header .title h1  {
     align-items: center;
     justify-content: center;
 }
-.main-wave {
-    position: absolute;
-    transform: rotate(180deg);
-    top: -5px;
-    height: 20%;
-    width: 100%;
-    z-index: -1;
-}
-.main-wave img {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    z-index: -10;
-}
 .card {
     height: 80vh;
     width: 80vw;
     position: relative;
-    box-shadow: 4px 4px rgba(0,0,0,0.6);
-    border: 2px solid black;
+    box-shadow: 4px 4px rgba(0,0,0,0.7);
+    /* border: 2px solid black; */
     border-radius: 12px;
+    background-color: #c83737;
 }
 .bg-img {
     height: 100%;
     width: 100%;
     position: absolute;
+    z-index: 1;
 }
 .bg-img img{
     position: absolute;
@@ -88,7 +77,6 @@ header .title h1  {
     justify-content: center;
     position: absolute;
     border-radius: 10px;
-    background-color: #c83737;
 }
 .container:after{
    position: absolute;
